@@ -1,0 +1,12 @@
+.bages {
+	padding: 70px 0;
+}
+.bages a {
+	font-size: 30px;
+	color: #101750;
+
+	transition: all 0.4s ease-in-out;
+}
+.bages a:hover {
+	color: #fb29a0;
+}

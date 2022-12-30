@@ -1,0 +1,157 @@
+.check-out {
+	padding: 70px 0;
+	background-color: #b5b6eb83;
+}
+.check-out img {
+	width: 100%;
+}
+/* left-col */
+.check-out .left-col {
+	background-color: #34495e;
+}
+.check-out .left-col h2 {
+	font-size: 24px;
+	color: #fff;
+}
+/* item */
+.check-out .left-col .item {
+	display: flex;
+	align-items: center;
+}
+/* img ctn */
+.check-out .left-col .item .img-col {
+	width: 90px;
+	height: 90px;
+}
+
+/* meta-col */
+.check-out .left-col .item .meta-col h3 {
+	font-size: 14px;
+	color: #ffffff;
+	margin-bottom: 2px;
+}
+.check-out .left-col .item .meta-col p {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 14px;
+	color: #72818f;
+	margin: 0;
+}
+/* footer */
+
+.check-out .left-col .left-col-footer p {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 14px;
+	color: #72818f;
+}
+.check-out .left-col .left-col-footer h4 {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 32px;
+	color: #ffffff;
+	margin-bottom: 2px;
+}
+.check-out .left-col .left-col-footer h4 span {
+	font-size: 32px;
+	color: #1c2834;
+	margin-right: 5px;
+}
+/* ----------------------------- */
+.check-out .right-col {
+	background-color: #fff;
+	padding: 30px;
+}
+.check-out .right-col .col-right-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.check-out .right-col .col-right-header h2 {
+	font-size: 24px;
+}
+.check-out .right-col #logotype {
+	max-width: 60px;
+}
+/* Form */
+.check-out .right-col form {
+	padding: 0 1px;
+}
+.check-out .right-col form input {
+	padding: 5px 10px;
+}
+.check-out .right-col form input::placeholder {
+	opacity: 0.5;
+}
+.check-out .right-col form label {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 15px;
+}
+/* card number */
+form #cardnumber {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+form #cardnumber input {
+	letter-spacing: 6px;
+	border-radius: 3px;
+	border: 1px solid lightgrey;
+	background: none;
+}
+/* card holder name */
+form #cardname {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+/* date */
+.check-out .right-col form .left .date {
+	display: flex;
+	align-items: center;
+}
+.check-out .right-col form .left .date input {
+	width: 49%;
+	text-align: center;
+	margin: 2px;
+}
+/* CVC */
+.check-out .right-col form .right input {
+	width: 100%;
+}
+/* purchase */
+form #purchase {
+	width: 100%;
+	background-color: #e67e22;
+	padding: 4px 0;
+}
+form #paypal {
+	padding: 4px 0;
+	width: 100%;
+	background: none;
+	border: 1px solid lightgrey;
+}
+form #paypal i {
+	color: #003087;
+}
+/* support */
+form #support a {
+	color: #009cde;
+	transition: all 0.4s ease;
+}
+/* hover */
+form #paypal:hover {
+	color: #fff;
+	background-color: #003087;
+}
+form #paypal:hover i {
+	color: #009cde;
+}
+form #support a:hover {
+	color: #fb29a0;
+}
+/* Media Quiry */
+@media (min-width: 1200px) {
+	.check-out .container {
+		max-width: 800px;
+	}
+}

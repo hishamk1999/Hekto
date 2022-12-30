@@ -1,0 +1,42 @@
+.our-features {
+	padding: 70px 0;
+}
+
+.our-features .card {
+	text-align: center;
+	border: none;
+	box-shadow: 0px 3px 23px 0px #4124d41a;
+	border-bottom: 2px solid transparent;
+	transition: all 0.4s ease;
+}
+.our-features .card .card-img {
+	display: flex;
+	justify-content: center;
+}
+.our-features .card .card-img img {
+	margin: 25px 0;
+}
+.our-features .card h5 {
+	color: #151875;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.our-features .card .card-text {
+	color: #a4a5bf;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28.8px;
+	margin-bottom: 25px;
+}
+/* hover */
+.our-features .card:hover {
+	border-bottom: 2px solid #ff9100;
+	box-shadow: 0px 3px 23px 0px #4124d43b;
+}
+/* Media Quiiry */
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+	.our-features .card {
+		margin: 15px 0;
+	}
+}

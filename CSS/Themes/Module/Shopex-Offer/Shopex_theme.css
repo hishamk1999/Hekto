@@ -1,0 +1,48 @@
+.Shopex {
+	margin: 70px 0;
+}
+.Shopex .card {
+	text-align: center;
+	border: none;
+	box-shadow: 0px 3px 23px 0px #4124d41a;
+	transition: all 0.4s ease;
+}
+.Shopex .row {
+	margin-top: 58px;
+	justify-content: center;
+}
+.Shopex .card .card-img {
+	display: flex;
+	justify-content: center;
+}
+.Shopex .card .card-img img {
+	margin-top: 53px;
+}
+.Shopex .card h5 {
+	color: #151875;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.Shopex .card .card-text {
+	color: #a4a5bf;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28.8px;
+	margin-bottom: 50px;
+}
+/* hoverr */
+.Shopex .card:hover {
+	transform: scale(1.059, 1.059);
+}
+/* media Quiry */
+@media (min-width: 1200px) {
+	.Shopex .card {
+		width: 270px;
+	}
+}
+@media (max-width: 1200px) {
+	.Shopex .card {
+		margin: 15px 0;
+	}
+}

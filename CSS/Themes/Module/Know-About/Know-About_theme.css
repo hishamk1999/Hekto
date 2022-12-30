@@ -1,0 +1,42 @@
+.know-about {
+	padding: 70px 0;
+}
+/* left */
+.know-about .img-ctn {
+	background-color: #2b3cab;
+	padding: 0 0 10px 10px;
+	border-radius: 7px;
+}
+.know-about img {
+	width: 100%;
+}
+/* right-ctn */
+.know-about .right-ctn h2 {
+	font-size: 36px;
+	line-height: 46.8px;
+}
+.know-about .right-ctn p {
+	color: #aba7cf;
+	font-weight: 300;
+}
+.know-about .right-ctn .btn-global {
+	padding: 6px 30px;
+}
+.know-about .right-ctn .btn-global a {
+	transition: all 0.4s ease;
+}
+/* hover */
+.know-about .right-ctn .btn-global:hover a {
+	color: #000;
+}
+
+@media screen and (min-width: 0px) and (max-width: 990px) {
+	.know-about .mb-30 {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+	.know-about .right-ctn h2 {
+		font-size: 25px;
+	}
+}

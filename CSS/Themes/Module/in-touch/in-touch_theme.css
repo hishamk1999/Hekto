@@ -1,0 +1,111 @@
+.in-touch {
+	padding: 70px 0;
+}
+.in-touch h2 {
+	font-size: 36px;
+	line-height: 46.8px;
+}
+.in-touch p {
+	color: #aab2d2;
+	font-weight: 300;
+}
+/* top */
+.in-touch .in-touch_top {
+	margin-bottom: 70px;
+}
+.in-touch .in-touch_top h2 {
+	margin-bottom: 32px;
+}
+
+/* top__social__icon*/
+.in-touch .in-touch_top .social {
+	display: flex;
+	align-items: center;
+}
+.in-touch .in-touch_top .social a {
+	margin-right: 14px;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.in-touch .in-touch_top .social a.fbook {
+	background-color: #5625df;
+}
+.in-touch .in-touch_top .social a.twitter {
+	background-color: #ff27b7;
+}
+.in-touch .in-touch_top .social a.insta {
+	background-color: #37daf3;
+}
+.in-touch .in-touch_top .social a i {
+	font-size: 13px;
+	color: #fff;
+}
+/* right side */
+.in-touch .in-touch_top .colum {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.in-touch .in-touch_top .colum img {
+	margin-right: 16px;
+}
+.in-touch .in-touch_top .colum .data p {
+	margin-bottom: 8px;
+}
+/*in-touch__bottom  */
+.in-touch .in-touch__bottom {
+	padding-top: 30px;
+}
+.in-touch .in-touch__bottom .main-row {
+	margin: 0;
+}
+/* left */
+.in-touch .in-touch__bottom .left form div {
+	margin-bottom: 30px;
+}
+.in-touch .in-touch__bottom .left form input,
+.in-touch .in-touch__bottom .left form textarea {
+	width: 100%;
+	border: 1px solid #c4c5d5;
+	border-radius: 3px;
+	padding: 13px 0 13px 12px;
+}
+.in-touch .in-touch__bottom .left form input::placeholder,
+.in-touch .in-touch__bottom .left form textarea::placeholder {
+	color: #aab2d2;
+	font-size: 16px;
+	font-weight: 300;
+}
+.in-touch .in-touch__bottom .left form input:focus-visible,
+.in-touch .in-touch__bottom .left form textarea:focus-visible {
+	outline: 1px solid #ff27b7;
+}
+/* right */
+.in-touch .in-touch__bottom .right img {
+	width: 100%;
+}
+
+/* Media Quiry */
+@media screen and (min-width: 0px) and (max-width: 900px) {
+	.in-touch h1 {
+		font-size: 25px;
+	}
+	.in-touch h2 {
+		font-size: 25px;
+	}
+	.in-touch .in-touch_top .left {
+		margin-bottom: 50px;
+	}
+	.in-touch .in-touch_top {
+		margin-bottom: 20px;
+	}
+	.in-touch .in-touch__bottom {
+		padding-top: 0px;
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 425px) {
+}

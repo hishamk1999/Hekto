@@ -1,0 +1,200 @@
+.shop {
+	padding: 70px 0;
+}
+/* Shop header */
+.shop .shop-nav {
+	width: 100%;
+}
+.shop .navbar {
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.shop .navbar .navbar-brand {
+	font-family: "Josefin Sans", sans-serif;
+	color: #1a247e;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.shop .navbar .nav-item {
+	display: inline-flex;
+	align-items: center;
+	margin: 0 4px;
+}
+.shop .navbar .nav-item a {
+	padding: 0;
+	margin: 0 4px;
+}
+.shop .navbar .nav-item select {
+	border: 1px solid #9c9fb75b;
+}
+.shop .navbar .nav-item i {
+	margin: 0 4px;
+}
+/* card */
+.shop .card {
+	padding-top: 10px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	border: none;
+	transition: all 0.4s ease;
+}
+.shop .card .card__img {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.shop .card .card-img-top {
+	width: 70%;
+}
+/* overlay icon */
+.shop .card .overlay-hover {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: -20px;
+	bottom: 0;
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+.shop .card .overlay-hover .icon i {
+	color: #182471;
+}
+.shop .card .overlay-hover button {
+	height: 30px;
+	width: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: flex-end;
+	border-radius: 50%;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	margin-right: 14px;
+}
+.shop .card .overlay-hover .cart {
+	background-color: #fff;
+}
+/* card body */
+.shop .card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.shop .card-body h5 {
+	position: relative;
+	color: #101968;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	transition: all 0.4s ease;
+}
+/* (three colors) */
+.shop .item .card .chair-color {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+.shop .item .card .chair-color button {
+	padding: 0;
+	height: 10px;
+	width: 10px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.shop .item .card .chair-color .s-1 {
+	background-color: #05e6b7;
+	transition: all 0.4s ease;
+}
+.shop .item .card .chair-color .s-2 {
+	background-color: #f701a8;
+	transition: all 0.4s ease;
+}
+.shop .item .card .chair-color .s-3 {
+	background-color: #00009d;
+	transition: all 0.4s ease;
+}
+/* End (three colors) */
+.shop .card-body .price {
+	display: flex;
+	align-items: center;
+}
+.shop .card-body .price p {
+	color: #101968;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.shop .card-body .price .old-price {
+	color: #fb2448;
+	font-size: 12px;
+	margin-left: 10px;
+}
+/* pagination */
+.shop .pagination {
+	margin-top: 30px;
+}
+.shop .pagination li {
+	margin: 0 15px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	box-shadow: 0px 1px 2px 2px #2a274414;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shop .pagination li:hover {
+	background-color: #31208a;
+}
+.shop .pagination li a {
+	padding: 0;
+	border: none;
+	color: #b7b7b9;
+	background-color: transparent;
+}
+.shop .pagination li:hover a,
+.shop .pagination li:hover button i {
+	color: #fff;
+}
+.shop .pagination li a:hover {
+	background-color: #31208a;
+}
+.shop .pagination li button {
+	border: none;
+	background-color: transparent;
+}
+.shop .pagination li button i {
+	color: rgb(163, 163, 163);
+}
+/* hover */
+.shop .card:hover {
+	box-shadow: 0px 3px 23px 0px #4124d41a;
+}
+/* overlay icon */
+.shop .card .overlay-hover .icon:hover .heart i {
+	color: red;
+}
+.shop .card:hover .overlay-hover {
+	opacity: 1;
+	left: 30px;
+}
+.shop .card:hover h5 {
+	color: #282932;
+}
+.shop .card:hover h5::after {
+	background-color: #fe2080;
+}
+/* Media Quiry */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.shop .navbar .navbar-brand {
+		font-size: 19px;
+	}
+	.shop .pagination li {
+		margin: 0 5px;
+	}
+}

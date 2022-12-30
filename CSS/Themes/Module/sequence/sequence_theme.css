@@ -1,0 +1,25 @@
+.sequence {
+	padding: 70px;
+	background-color: #f6f5ff;
+}
+.sequence h1 {
+	color: #101750;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+.sequence p {
+	margin: 0;
+	color: #101750;
+	font-weight: 400;
+}
+.sequence p > span {
+	color: #fb29a0;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.sequence h1 {
+		font-size: 25px;
+	}
+}

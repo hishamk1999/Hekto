@@ -1,0 +1,117 @@
+.discount-item {
+	padding: 20px 0 70px;
+}
+.discount-item .header h2 {
+	text-align: center;
+}
+.discount-item .header .links {
+	text-align: center;
+	margin: 30px 0 70px;
+}
+.discount-item .header .links a {
+	position: relative;
+	color: #1b1b8e;
+	font-size: 18px;
+	font-weight: 300;
+	transition: all 0.4s ease;
+	display: inline-flex;
+	align-items: center;
+}
+.discount-item .header .links a::after {
+	content: "";
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	border-radius: 4px;
+	background-color: #fb3591;
+	transition: all 0.4s ease;
+}
+.discount-item .header .links a > p {
+	width: 4px;
+	height: 4px;
+	background-color: #1b1b8e;
+	margin: 0 7.5px;
+	border-radius: 50%;
+	transition: all 0.4s ease;
+}
+/* -----------------discount item body------------------ */
+.discount-item .left h2 {
+	font-size: 36px;
+	line-height: 55px;
+}
+.discount-item .left h6 {
+	font-family: "Josefin Sans", sans-serif;
+	color: #ec2094;
+	font-size: 22px;
+	font-weight: 400;
+	font-weight: 55px;
+	margin-bottom: 29px;
+}
+.discount-item .left p {
+	color: #a9acc1;
+	font-size: 16px;
+	font-weight: 300;
+}
+.discount-item .left ul {
+	list-style: circle;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 29px;
+}
+.discount-item .left li {
+	color: #b2b2d9;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 21px;
+	padding-left: 6px;
+	left: 14.5px;
+}
+.discount-item .left li::marker {
+	content: "\f00c";
+	font-family: "Font Awesome 6 Free";
+	font-weight: 600;
+}
+/* right */
+.discount-item .right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.discount-item .right .overlay-bg {
+	position: relative;
+	max-height: 472px;
+	max-width: 472px;
+	background-image: linear-gradient(to bottom, #ff7e1c4b, #d22aa04b);
+	border-radius: 50%;
+	z-index: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.discount-item .right .overlay-bg img {
+	width: 100%;
+}
+
+/* hover */
+.discount-item .header .links a:hover {
+	color: #fb3591;
+}
+.discount-item .header .links a:hover::after {
+	width: 100%;
+	right: 0;
+}
+.discount-item .header .links a:hover > p {
+	background-color: #fb3591;
+}
+/* Media Quiry */
+@media screen and (min-width: 0px) and (max-width: 600px) {
+	.discount-item .right .phot-ctn {
+		margin-top: 40px;
+	}
+	.discount-item .right .overlay-bg {
+		width: 290px;
+		height: 290px;
+	}
+}

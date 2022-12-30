@@ -1,0 +1,170 @@
+.trending-products {
+	padding: 70px 0;
+}
+.trending-products p {
+	margin: 0;
+}
+.trending-products .top-row {
+	margin-top: 60px;
+}
+/* first row */
+.trending-products .card .card-img {
+	position: relative;
+	overflow: hidden;
+	transition: all 0.4s ease;
+	border-bottom: 2px solid #08d15f;
+}
+.trending-products .card {
+	box-shadow: 0px 3px 23px 0px #4124d41a;
+	border: none;
+	transition: all 0.4s ease;
+}
+/* overlay icon */
+.trending-products .card .overlay-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 23px;
+	left: -40px;
+	transition: all 0.4s ease;
+	opacity: 0;
+}
+.trending-products .card .overlay-icon button {
+	height: 30px;
+	width: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	margin-bottom: 13px;
+	background-color: #fff;
+}
+.trending-products .card .overlay-icon .icon .heart i {
+	transition: all 0.4s ease;
+}
+/* card body */
+.trending-products .card .card-body {
+	text-align: center;
+}
+.trending-products .card .card-body a {
+	margin-bottom: 12px;
+	display: inline-block;
+}
+.trending-products .card .card-body .card-title {
+	color: #1a0b5b;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 28.8px;
+}
+.trending-products .card .card-body .price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.trending-products .card .card-body .price p {
+	color: #192864;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 32px;
+	margin-right: 16px;
+}
+.trending-products .card .card-body .price s {
+	color: #9597aa;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 32px;
+}
+/* hover */
+.trending-products .card:hover {
+	transform: scale(1.059, 1.059);
+}
+.trending-products .card:hover .overlay-icon {
+	left: 10px;
+	opacity: 1;
+}
+.trending-products .card .overlay-icon .icon:hover .heart i {
+	color: red;
+}
+/* end first row */
+
+/* bottom row */
+.trending-products .bottom-row {
+	margin: 30px 0;
+}
+.trending-products .bottom-row .card-1 {
+	background-color: #ff279a1a;
+}
+.trending-products .bottom-row .card-2 {
+	background-color: #f6f5ff;
+}
+.trending-products .bottom-row .card-body {
+	text-align: left;
+}
+.trending-products .bottom-row .card-body h6 {
+	color: #242465;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.trending-products .bottom-row .card-body a {
+	text-decoration: underline;
+	color: #ff3d97;
+}
+.trending-products .bottom-row .card-img {
+	border: none;
+	width: 100%;
+}
+.trending-products .bottom-row .card-1 .card-img {
+	text-align: right;
+}
+.trending-products .bottom-row .card-2 .card-img {
+	text-align: center;
+}
+.trending-products .bottom-row .card .card-img img {
+	width: 43%;
+}
+/* -----------Right----------- */
+.trending-products .bottom-row .bottom-row__right .card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 5px 0;
+	padding: 5px;
+}
+.trending-products .bottom-row .bottom-row__right img {
+	width: 30%;
+}
+.trending-products .bottom-row .bottom-row__right .content {
+	margin-left: 9px;
+}
+.trending-products .bottom-row .bottom-row__right .content a {
+	color: #141d6d;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.trending-products .bottom-row .bottom-row__right .content p {
+	color: #192864;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+}
+/* End bottom row */
+
+/* Media Quiry */
+@media screen and (min-width: 0px) and (max-width: 990px) {
+	.trending-products .top-row {
+		margin-top: 30px;
+	}
+	.trending-products .card {
+		margin: 15px 0;
+	}
+}

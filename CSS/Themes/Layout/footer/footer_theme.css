@@ -1,0 +1,90 @@
+footer {
+	padding: 70px 0 0;
+	background-color: #eeeffb;
+}
+footer .row {
+	padding-bottom: 70px;
+}
+footer p,
+footer .row a {
+	color: #9196aa;
+	font-weight: 400;
+	line-height: 40px;
+	position: relative;
+}
+footer .row a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -7px;
+	right: 0;
+	height: 1px;
+	background-color: #fb2e86;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+}
+footer h4 {
+	color: #112c6b;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 65px;
+}
+/* first colum */
+footer .first-colum h2 {
+	margin-bottom: 25px;
+}
+footer .first-colum .mail-input {
+	border-radius: 2px;
+	margin-bottom: 25px;
+}
+footer .first-colum .mail-input input {
+	border: none;
+}
+footer .first-colum .mail-input input::placeholder {
+	font-family: "Fira Sans", sans-serif;
+	color: #b2accf;
+	font-size: 14px;
+}
+footer .first-colum .mail-input input:focus-visible {
+	outline: none;
+}
+footer .first-colum .mail-input .btn-global {
+	padding: 5px 38.5px 5px 38px;
+}
+footer .first-colum p {
+	line-height: 28.8px;
+}
+/* second colum */
+
+/* footer bottom nav */
+footer .footer-nav {
+	padding: 16px 0;
+	background-color: #e7e4f8;
+}
+footer .footer-nav p {
+	margin: 0;
+	color: #8a8e9b;
+	font-weight: 400;
+}
+footer .footer-nav .social {
+	display: flex;
+	align-items: center;
+}
+footer .footer-nav .social i {
+	margin-right: 20.5px;
+	transition: all 0.4s ease;
+	color: #0b0b61;
+}
+/* -------------------------------------------------- */
+/* hover */
+footer a:hover {
+	color: #9196aa;
+}
+footer a:hover::after {
+	opacity: 1;
+}
+/* footer bottom nav */
+footer .footer-nav .social i:hover {
+	color: #fb2e86;
+}

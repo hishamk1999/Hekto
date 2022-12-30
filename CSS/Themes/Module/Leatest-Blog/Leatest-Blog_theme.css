@@ -1,0 +1,69 @@
+.leatest-blog {
+	padding: 40px 0 70px;
+}
+.leatest-blog h2 {
+	text-align: center;
+	margin-bottom: 59px;
+}
+/* card */
+/* publisher */
+.leatest-blog .card {
+	margin: 15px 0;
+}
+.leatest-blog .card .publisher {
+	display: flex;
+	align-items: center;
+	margin-bottom: 29px;
+}
+.leatest-blog .card .publisher p {
+	margin: 0;
+	color: #afb0c6;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.leatest-blog .card .publisher-img {
+	margin-right: 5px;
+}
+.leatest-blog .card .publisher-img img {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	transition: all 0.4s ease;
+}
+.leatest-blog .card .publisher .name {
+	margin-right: 17px;
+}
+.leatest-blog .card .publisher .date i {
+	color: #ff861d;
+	font-size: 16px;
+	margin-right: 5px;
+}
+/* title */
+.leatest-blog .card .card-title {
+	color: #252857;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.4s ease;
+}
+.leatest-blog .card .card-text {
+	color: #72718f;
+	font-weight: 400;
+}
+.leatest-blog .card .card-body a {
+	color: #252857;
+	text-decoration: underline;
+	transition: all 0.4s ease;
+}
+
+/* hover */
+.leatest-blog .card:hover .publisher-img img {
+	box-shadow: -1px 0px 0px 1px #fb2e86;
+}
+.leatest-blog .card:hover .card-body a {
+	color: #fb2e86;
+}
+.leatest-blog .card:hover .card-title {
+	color: #fb2e86;
+}

@@ -1,0 +1,122 @@
+.Leatest-Products {
+	padding-bottom: 70px;
+}
+.Leatest-Products .tittle {
+	text-align: center;
+}
+.Leatest-Products .Leatest-Products__nav {
+	text-align: center;
+}
+.Leatest-Products .Leatest-Products__nav a {
+	margin-right: 40px;
+	color: #1a0b5b;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+.Leatest-Products .Leatest-Products__nav a:hover {
+	color: #fb2e86;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.Leatest-Products .container {
+	margin-top: 64px;
+}
+/* card */
+.Leatest-Products .card {
+	padding-top: 10px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	border: none;
+	transition: all 0.4s ease;
+}
+.Leatest-Products .card .card__img {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.Leatest-Products .card .card-img-top {
+	width: 70%;
+}
+/* overlay icon */
+.Leatest-Products .card .overlay-hover {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: -92px;
+	bottom: 0;
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+.Leatest-Products .card .overlay-hover button {
+	height: 30px;
+	width: 30px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: flex-end;
+	border-radius: 50%;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	margin-right: 14px;
+}
+.Leatest-Products .card .overlay-hover .cart {
+	background-color: #fff;
+}
+/* ------------------------------------------------- */
+/* card body */
+.Leatest-Products .card-body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.Leatest-Products .card-body a {
+	position: relative;
+	color: #101968;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	transition: all 0.4s ease;
+}
+.Leatest-Products .card-body a::after {
+	content: "";
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background-color: #30387d48;
+	transition: all 0.4s ease;
+}
+.Leatest-Products .card-body .price {
+	display: flex;
+	align-items: center;
+}
+.Leatest-Products .card-body .price p {
+	color: #101968;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.Leatest-Products .card-body .price .old-price {
+	color: #fb2448;
+	font-size: 12px;
+	margin-left: 10px;
+}
+/* hover */
+.Leatest-Products .card:hover {
+	box-shadow: 0px 3px 23px 0px #4124d41a;
+}
+/* overlay icon */
+.Leatest-Products .card .overlay-hover .icon:hover .heart i {
+	color: red;
+}
+.Leatest-Products .card:hover .overlay-hover {
+	opacity: 1;
+	left: 0;
+}
+.Leatest-Products .card:hover a {
+	color: #282932;
+}
+.Leatest-Products .card:hover a::after {
+	background-color: #fe2080;
+}

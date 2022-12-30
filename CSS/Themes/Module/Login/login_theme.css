@@ -1,0 +1,57 @@
+.my-acc {
+	padding: 70px 0;
+}
+.my-acc .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.my-acc .container .ctn {
+	padding: 30px 40px;
+	max-width: 540px;
+	box-shadow: 0px 3px 32px 0px rgba(40, 28, 145, 0.11);
+}
+.my-acc .container .tittle {
+	text-align: center;
+}
+.my-acc .container .tittle h2 {
+	font-size: 32px;
+	line-height: 32px;
+}
+.my-acc .container .tittle p {
+	color: #9096b2;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+.my-acc .container form input,
+.my-acc .container form button {
+	width: 100%;
+}
+.my-acc .container form input {
+	padding: 10px;
+	border: 1px solid #c2c5e1;
+	background-color: #f0f0f0;
+}
+.my-acc .container form input::placeholder {
+	color: #9096b2;
+}
+.my-acc .container form a {
+	color: #9096b2;
+	transition: all 0.4s ease;
+}
+.my-acc .container form p {
+	color: #9096b2;
+}
+.my-acc .container form .row {
+	margin: 0;
+	justify-content: center;
+}
+.my-acc .container form .row > div {
+	margin: 8px;
+}
+
+/* hover */
+.my-acc .container form a:hover {
+	color: #fb2e86;
+}

@@ -1,0 +1,91 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+/* font-family: "Josefin Sans", sans-serif; */
+/* font-family: 'Fira Sans', sans-serif; */
+
+/* Font Awesome icon*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+
+/* Boot Strap icon*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+/* Boot Strap file*/
+@import url(../Boot-Strap/bootstrap.min.css);
+
+/* owl carousel*/
+@import url(../owlCarousel/owl.carousel.min.css);
+
+@import url(../owlCarousel/owl.theme.default.min.css);
+
+/* Basse */
+@import url(../Bass/bass.css);
+
+/* Header */
+@import url(../Themes/Layout/Header/header_theme.css);
+
+/* home ffirst section */
+@import url(../Themes/Module/Home-section/first_section_home_theme.css);
+
+/* Featured Products section*/
+@import url(../Themes/Module/Featured-Products/Featured-Products_theme.css);
+
+/* Leatest Products */
+@import url(../Themes/Module/Leatest-Products/Leatest-Products_theme.css);
+
+/* Shopex Offer! */
+@import url(../Themes/Module/Shopex-Offer/Shopex_theme.css);
+
+/* Unique Features */
+@import url(../Themes/Module/Unique-Features/Unique-Features_theme.css);
+
+/* Trending Products */
+@import url(../Themes/Module/Trending-Products/Trending-Products_theme.css);
+
+/* Discount Item */
+@import url(../Themes/Module/Discount-Item/Discount-Item_theme.css);
+
+/* Top Catagories */
+@import url(../Themes/Module/Top-Catagories/Top-Catagories_theme.css);
+
+/* Our Newsletter */
+@import url(../Themes/Module/Our-Newsletter/Our-Newsletter_theme.css);
+
+/* brands */
+@import url(../Themes/Module/brnds/brands_theme.css);
+
+/* Leatest Blog */
+@import url(../Themes/Module/Leatest-Blog/Leatest-Blog_theme.css);
+
+/* footer */
+@import url(../Themes/Layout/footer/footer_theme.css);
+
+/* other pages */
+/* list of pages */
+@import url(../Themes/Module/List-bages/list-of-pages_theme.css);
+/* sequence */
+@import url(../Themes/Module/sequence/sequence_theme.css);
+
+/* Blog left sidebar */
+@import url(../Themes/Module/blog-left-sidebar/L-sidebar_theme.css);
+/* Blog Right sidebar */
+@import url(../Themes/Module/blog-right-sidebar/R-sidebar_theme.css);
+
+/* Shop */
+@import url(../Themes/Module/Shop/Shop_theme.css);
+/* single product */
+@import url(../Themes/Module/single-product/single-prod_theme.css);
+/* login */
+@import url(../Themes/Module/Login/login_theme.css);
+/* Cart-item */
+@import url(../Themes/Module/Cart-item/Cart-item_theme.css);
+/* Checkout */
+@import url(../Themes/Module/Checkout/Checkout_theme.css);
+/* Know About */
+@import url(../Themes/Module/Know-About/Know-About_theme.css);
+/* Our Features */
+@import url(../Themes/Module/Our-Features/Our-Features_theme.css);
+/* Our Client */
+@import url(../Themes/Module/Our-Client/Our-Client_theme.css);
+/* in-touch */
+@import url(../Themes/Module/in-touch/in-touch_theme.css);
+/* 404 not found */
+@import url(../Themes/Module/not-found/not-found_theme.css);

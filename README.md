@@ -15,7 +15,7 @@ you can see Quiz app here: (https://hishamk1999.github.io/Hekto/)
 - About Us
 - Contact
 - Auth (login - sign in)
-- Chekout
+- Checkout
 - product Details
 - Cart
 - 404 Not-found

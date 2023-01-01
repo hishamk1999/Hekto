@@ -7,7 +7,7 @@ This Static website, using
 for styling, [Boot Strap icon](https://icons.getbootstrap.com/) for icons, 
 [owl carousel](https://owlcarousel2.github.io/OwlCarousel2/) for sliders.
 
-you can see Quiz app here: (https://hishamk1999.github.io/Hekto/)
+you can see Website live here: (https://hishamk1999.github.io/Hekto/)
 ## Features
 
 - Shop
